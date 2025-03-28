@@ -19,7 +19,7 @@
 </head>
 <style>
     td th {
-        height: 80px;
+        height: 100px;
         width: 160px;
         text-align: center;
         vertical-align: middle;
@@ -44,7 +44,7 @@
                 <a href="http://www.eecs.qmul.ac.uk/~josh/"> Joshua D. Reiss<sup>1</sup></a> &nbsp;
             </p>
             <p style="margin-top: 0;">
-                <sup>1</sup>Centre for Digital Music, Queen Mary University of London <br>
+                <sup>1</sup>Centre fo</audio>r Digital Music, Queen Mary University of London <br>
                 <sup>2</sup>Adobe Research <br>
             </p> -->
             <!-- <div class="m-5">
@@ -293,14 +293,14 @@
                 <br>
                 </p>
                 <br>
-                <h3 class="text-left">ATEPP</h3>
+                <h4 class="text-left">ATEPP: Transcribed MIDI in Classical Style</h4>
                 <table class="table table-sm text-center" style="vertical-align: middle;">
                         <tr>
                             <th><span class="">Source</span> <br> <span class="detail"></span></th>
-                            <th><span class="">Seg1: A</span> <br> <span class="detail"></span></th>
-                            <th><span class="">Seg2: B</span> <br> <span class="detail"></span></th>
-                            <th><span class="">Seg3: C</span> <br> <span class="detail"></span></th>
-                            <th><span class="">Seg4: D</span> <br> <span class="detail"></span></th>
+                            <th><span class="">Sample A</span> <br> <span class="detail"></span></th>
+                            <th><span class="">Sample B</span> <br> <span class="detail"></span></th>
+                            <th><span class="">Sample C</span> <br> <span class="detail"></span></th>
+                            <th><span class="">Sample D</span> <br> <span class="detail"></span></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -309,7 +309,7 @@
                             <td>GroundTruth Human Recording</td>
                             <td><audio id="A_audio_gt"
                                 onended="audioEnd('A_btn_gt', 'A_audio_gt')">
-                                <source src="./audios/m2a_mv/mv_ATEPP_gt/04337_0_5.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP_gt/04337_0_5.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -321,7 +321,7 @@
 
                             <td><audio id="B_audio_gt"
                                 onended="audioEnd('B_btn_gt', 'B_audio_gt')">
-                                <source src="./audios/m2a_mv/mv_ATEPP_gt/05309_0_24.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP_gt/05309_0_24.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -333,7 +333,7 @@
 
                             <td><audio id="C_audio_gt"
                                 onended="audioEnd('C_btn_gt', 'C_audio_gt')">
-                                <source src="./audios/m2a_mv/mv_ATEPP_gt/06655_0_11.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP_gt/06655_0_11.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -345,7 +345,7 @@
 
                             <td><audio id="D_audio_gt"
                                 onended="audioEnd('D_btn_gt', 'D_audio_gt')">
-                                <source src="./audios/m2a_mv/mv_ATEPP_gt/11520_0_17.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP_gt/11520_0_17.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -361,7 +361,7 @@
                             <td>Piano-Encodec Reconstruction</td>
                             <td><audio id="A_audio_encodec"
                                 onended="audioEnd('A_btn_encodec', 'A_audio_encodec')">
-                                <source src="./audios/m2a_mv/mv_ATEPP_gt_encodec/04337_0_5.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP_gt_encodec/04337_0_5.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -373,7 +373,7 @@
 
                             <td><audio id="B_audio_encodec"
                                 onended="audioEnd('B_btn_encodec', 'B_audio_encodec')">
-                                <source src="./audios/m2a_mv/mv_ATEPP_gt_encodec/05309_0_24.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP_gt_encodec/05309_0_24.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -385,7 +385,7 @@
 
                             <td><audio id="C_audio_encodec"
                                 onended="audioEnd('C_btn_encodec', 'C_audio_encodec')">
-                                <source src="./audios/m2a_mv/mv_ATEPP_gt_encodec/06655_0_11.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP_gt_encodec/06655_0_11.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -397,7 +397,7 @@
 
                             <td><audio id="D_audio_encodec"
                                 onended="audioEnd('D_btn_encodec', 'D_audio_encodec')">
-                                <source src="./audios/m2a_mv/mv_ATEPP_gt_encodec/11520_0_17.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP_gt_encodec/11520_0_17.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -413,7 +413,7 @@
                             <td>MIDI-VALLE Generation</td>
                             <td><audio id="A_audio_mv"
                                 onended="audioEnd('A_btn_mv', 'A_audio_mv')">
-                                <source src="./audios/m2a_mv/mv_ATEPP/04337_0_5.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP/04337_0_5.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -425,7 +425,7 @@
 
                             <td><audio id="B_audio_mv"
                                 onended="audioEnd('B_btn_mv', 'B_audio_mv')">
-                                <source src="./audios/m2a_mv/mv_ATEPP/05309_0_24.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP/05309_0_24.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -437,7 +437,7 @@
 
                             <td><audio id="C_audio_mv"
                                 onended="audioEnd('C_btn_mv', 'C_audio_mv')">
-                                <source src="./audios/m2a_mv/mv_ATEPP/06655_0_11.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP/06655_0_11.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -449,7 +449,7 @@
 
                             <td><audio id="D_audio_mv"
                                 onended="audioEnd('D_btn_mv', 'D_audio_mv')">
-                                <source src="./audios/m2a_mv/mv_ATEPP/11520_0_17.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_ATEPP/11520_0_17.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -464,7 +464,7 @@
                             <td>M2A Generation</td>
                             <td><audio id="A_audio_m2a"
                                 onended="audioEnd('A_btn_m2a', 'A_audio_m2a')">
-                                <source src="./audios/m2a_mv/m2a_ATEPP/04337_0_5.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/m2a_ATEPP/04337_0_5.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -476,7 +476,7 @@
 
                             <td><audio id="B_audio_m2a"
                                 onended="audioEnd('B_btn_m2a', 'B_audio_m2a')">
-                                <source src="./audios/m2a_mv/m2a_ATEPP/05309_0_24.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/m2a_ATEPP/05309_0_24.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -488,7 +488,7 @@
 
                             <td><audio id="C_audio_m2a"
                                 onended="audioEnd('C_btn_m2a', 'C_audio_m2a')">
-                                <source src="./audios/m2a_mv/m2a_ATEPP/06655_0_11.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/m2a_ATEPP/06655_0_11.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -500,7 +500,7 @@
 
                             <td><audio id="D_audio_m2a"
                                 onended="audioEnd('D_btn_m2a', 'D_audio_m2a')">
-                                <source src="./audios/m2a_mv/m2a_ATEPP/11520_0_17.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/m2a_ATEPP/11520_0_17.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -514,14 +514,14 @@
                 </table>
                 <br>
                 <br>
-                <h3 class="text-left">Maestro</h3>
+                <h4 class="text-left">Maestro: Recorded MIDI in Classicl Style</h4>
                 <table class="table table-sm text-center" style="vertical-align: middle;">
                         <tr>
                             <th><span class="">Source</span> <br> <span class="detail"></span></th>
-                            <th><span class="">Seg1: A</span> <br> <span class="detail"></span></th>
-                            <th><span class="">Seg2: B</span> <br> <span class="detail"></span></th>
-                            <th><span class="">Seg3: C</span> <br> <span class="detail"></span></th>
-                            <th><span class="">Seg4: D</span> <br> <span class="detail"></span></th>
+                            <th><span class="">Sample A</span> <br> <span class="detail"></span></th>
+                            <th><span class="">Sample B</span> <br> <span class="detail"></span></th>
+                            <th><span class="">Sample C</span> <br> <span class="detail"></span></th>
+                            <th><span class="">Sample D</span> <br> <span class="detail"></span></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -530,7 +530,7 @@
                             <td>GroundTruth Human Recording</td>
                             <td><audio id="A_audio_gt_maestro"
                                 onended="audioEnd('A_btn_gt_maestro', 'A_audio_gt_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro_gt/00002_0_2.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro_gt/00002_0_2.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -542,7 +542,7 @@
 
                             <td><audio id="B_audio_gt_maestro"
                                 onended="audioEnd('B_btn_gt_maestro', 'B_audio_gt_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro_gt/00024_0_14.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro_gt/00024_0_14.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -554,7 +554,7 @@
 
                             <td><audio id="C_audio_gt_maestro"
                                 onended="audioEnd('C_btn_gt_maestro', 'C_audio_gt_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro_gt/00056_0_9.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro_gt/00056_0_9.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -566,7 +566,7 @@
 
                             <td><audio id="D_audio_gt_maestro"
                                 onended="audioEnd('D_btn_gt_maestro', 'D_audio_gt_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro_gt/00080_0_9.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro_gt/00080_0_9.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -582,7 +582,7 @@
                             <td>Piano-Encodec Reconstruction </td>
                             <td><audio id="A_audio_encodec_maestro"
                                 onended="audioEnd('A_btn_encodec_maestro', 'A_audio_encodec_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro_gt_encodec/00002_0_2.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro_gt_encodec/00002_0_2.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -594,7 +594,7 @@
 
                             <td><audio id="B_audio_encodec_maestro"
                                 onended="audioEnd('B_btn_encodec_maestro', 'B_audio_encodec_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro_gt_encodec/00024_0_14.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro_gt_encodec/00024_0_14.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -606,7 +606,7 @@
 
                             <td><audio id="C_audio_encodec_maestro"
                                 onended="audioEnd('C_btn_encodec_maestro', 'C_audio_encodec_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro_gt_encodec/00056_0_9.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro_gt_encodec/00056_0_9.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -618,7 +618,7 @@
 
                             <td><audio id="D_audio_encodec_maestro"
                                 onended="audioEnd('D_btn_encodec_maestro', 'D_audio_encodec_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro_gt_encodec/00080_0_9.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro_gt_encodec/00080_0_9.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -634,7 +634,7 @@
                             <td>MIDI-VALLE Generation</td>
                             <td><audio id="A_audio_mv_maestro"
                                 onended="audioEnd('A_btn_mv_maestro', 'A_audio_mv_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro/00002_0_2.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro/00002_0_2.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -646,7 +646,7 @@
 
                             <td><audio id="B_audio_mv_maestro"
                                 onended="audioEnd('B_btn_mv_maestro', 'B_audio_mv_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro/00024_0_14.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro/00024_0_14.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -658,7 +658,7 @@
 
                             <td><audio id="C_audio_mv_maestro"
                                 onended="audioEnd('C_btn_mv_maestro', 'C_audio_mv_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro/00056_0_9.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro/00056_0_9.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -670,7 +670,7 @@
 
                             <td><audio id="D_audio_mv_maestro"
                                 onended="audioEnd('D_btn_mv_maestro', 'D_audio_mv_maestro')">
-                                <source src="./audios/m2a_mv/mv_maestro/00080_0_9.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/mv_maestro/00080_0_9.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -685,7 +685,7 @@
                             <td>M2A Generation</td>
                             <td><audio id="A_audio_m2a_maestro"
                                 onended="audioEnd('A_btn_m2a_maestro', 'A_audio_m2a_maestro')">
-                                <source src="./audios/m2a_mv/m2a_maestro/00002_0_2.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/m2a_maestro/00002_0_2.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -697,7 +697,7 @@
 
                             <td><audio id="B_audio_m2a_maestro"
                                 onended="audioEnd('B_btn_m2a_maestro', 'B_audio_m2a_maestro')">
-                                <source src="./audios/m2a_mv/m2a_maestro/00024_0_14.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/m2a_maestro/00024_0_14.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -709,7 +709,7 @@
 
                             <td><audio id="C_audio_m2a_maestro"
                                 onended="audioEnd('C_btn_m2a_maestro', 'C_audio_m2a_maestro')">
-                                <source src="./audios/m2a_mv/m2a_maestro/00056_0_9.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/m2a_maestro/00056_0_9.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -721,7 +721,7 @@
 
                             <td><audio id="D_audio_m2a_maestro"
                                 onended="audioEnd('D_btn_m2a_maestro', 'D_audio_m2a_maestro')">
-                                <source src="./audios/m2a_mv/m2a_maestro/00080_0_9.wav" type="audio/mpeg">
+                                <source src="./audios/m2a_mv/m2a_maestro/00080_0_9.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                             <div>
@@ -735,14 +735,14 @@
                 </table>
                 <br>
                 <br>
-                <h3 class="text-left">Pijama</h3>
+                <h4 class="text-left">Pijama: Transcribed MIDI in Jazz Style</h4>
                 <table class="table table-sm text-center" style="vertical-align: middle;">
                     <tr>
                         <th><span class="">Source</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg1: A</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg2: B</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg3: C</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg4: D</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample A</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample B</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample C</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample D</span> <br> <span class="detail"></span></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -751,7 +751,7 @@
                         <td>GroundTruth Human Recording</td>
                         <td><audio id="A_audio_gt_pijama"
                         onended="audioEnd('A_btn_gt_pijama', 'A_audio_gt_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama_gt/00141_0_12.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama_gt/00141_0_12.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -763,7 +763,7 @@
 
                         <td><audio id="B_audio_gt_pijama"
                         onended="audioEnd('B_btn_gt_pijama', 'B_audio_gt_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama_gt/01229_0_5.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama_gt/01229_0_5.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -775,7 +775,7 @@
 
                         <td><audio id="C_audio_gt_pijama"
                         onended="audioEnd('C_btn_gt_pijama', 'C_audio_gt_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama_gt/01590_0_5.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama_gt/01590_0_5.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -787,7 +787,7 @@
 
                         <td><audio id="D_audio_gt_pijama"
                         onended="audioEnd('D_btn_gt_pijama', 'D_audio_gt_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama_gt/02360_0_3.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama_gt/02360_0_3.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -803,7 +803,7 @@
                         <td>Piano-Encodec Reconstruction</td>
                         <td><audio id="A_audio_encodec_pijama"
                         onended="audioEnd('A_btn_encodec_pijama', 'A_audio_encodec_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama_gt_encodec/00141_0_12.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama_gt_encodec/00141_0_12.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -815,7 +815,7 @@
 
                         <td><audio id="B_audio_encodec_pijama"
                         onended="audioEnd('B_btn_encodec_pijama', 'B_audio_encodec_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama_gt_encodec/01229_0_5.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama_gt_encodec/01229_0_5.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -827,7 +827,7 @@
 
                         <td><audio id="C_audio_encodec_pijama"
                         onended="audioEnd('C_btn_encodec_pijama', 'C_audio_encodec_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama_gt_encodec/01590_0_5.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama_gt_encodec/01590_0_5.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -839,7 +839,7 @@
 
                         <td><audio id="D_audio_encodec_pijama"
                         onended="audioEnd('D_btn_encodec_pijama', 'D_audio_encodec_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama_gt_encodec/02360_0_3.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama_gt_encodec/02360_0_3.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -855,7 +855,7 @@
                         <td>MIDI-VALLE Generation</td>
                         <td><audio id="A_audio_mv_pijama"
                         onended="audioEnd('A_btn_mv_pijama', 'A_audio_mv_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama/00141_0_12.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama/00141_0_12.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -867,7 +867,7 @@
 
                         <td><audio id="B_audio_mv_pijama"
                         onended="audioEnd('B_btn_mv_pijama', 'B_audio_mv_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama/01229_0_5.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama/01229_0_5.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -879,7 +879,7 @@
 
                         <td><audio id="C_audio_mv_pijama"
                         onended="audioEnd('C_btn_mv_pijama', 'C_audio_mv_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama/01590_0_5.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama/01590_0_5.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -891,7 +891,7 @@
 
                         <td><audio id="D_audio_mv_pijama"
                         onended="audioEnd('D_btn_mv_pijama', 'D_audio_mv_pijama')">
-                        <source src="./audios/m2a_mv/mv_pijama/02360_0_3.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/mv_pijama/02360_0_3.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -906,7 +906,7 @@
                         <td>M2A Generation</td>
                         <td><audio id="A_audio_m2a_pijama"
                         onended="audioEnd('A_btn_m2a_pijama', 'A_audio_m2a_pijama')">
-                        <source src="./audios/m2a_mv/m2a_pijama/00141_0_12.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/m2a_pijama/00141_0_12.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -918,7 +918,7 @@
 
                         <td><audio id="B_audio_m2a_pijama"
                         onended="audioEnd('B_btn_m2a_pijama', 'B_audio_m2a_pijama')">
-                        <source src="./audios/m2a_mv/m2a_pijama/01229_0_5.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/m2a_pijama/01229_0_5.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -930,7 +930,7 @@
 
                         <td><audio id="C_audio_m2a_pijama"
                         onended="audioEnd('C_btn_m2a_pijama', 'C_audio_m2a_pijama')">
-                        <source src="./audios/m2a_mv/m2a_pijama/01590_0_5.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/m2a_pijama/01590_0_5.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -942,7 +942,7 @@
 
                         <td><audio id="D_audio_m2a_pijama"
                         onended="audioEnd('D_btn_m2a_pijama', 'D_audio_m2a_pijama')">
-                        <source src="./audios/m2a_mv/m2a_pijama/02360_0_3.wav" type="audio/mpeg">
+                        <source src="./audios/m2a_mv/m2a_pijama/02360_0_3.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -964,14 +964,14 @@
                 Three expressive performance rendering (EPR) models—M2M [1], VirtuosoNet [2], and DExter [3]—are selected to evaluate how MIDI-VALLE and M2A perform when integrated into a two-stage music performance synthesis (MPS) pipeline. For each EPR system, four segments are generated for comparing.
                 </p>
                 <br>
-                <h3 class="text-left">M2M</h3>
+                <h4 class="text-left">M2M</h4>
                 <table class="table table-sm text-center" style="vertical-align: middle;">
                     <tr>
                         <th><span class="">Source</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg1: A</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg2: B</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg3: C</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg4: D</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample A</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample B</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample C</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample D</span> <br> <span class="detail"></span></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -979,7 +979,7 @@
                         <td>M2M + MIDI-VALLE</td>
                         <td><audio id="A_audio_mv_m2m"
                             onended="audioEnd('A_btn_mv_m2m', 'A_audio_mv_m2m')">
-                            <source src="./audios/eprs/m2m_05828/m2m_05828_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/m2m_05828/m2m_05828_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -991,7 +991,7 @@
 
                         <td><audio id="B_audio_mv_m2m"
                             onended="audioEnd('B_btn_mv_m2m', 'B_audio_mv_m2m')">
-                            <source src="./audios/eprs/m2m_06288/m2m_06288_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/m2m_06288/m2m_06288_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1003,7 +1003,7 @@
 
                         <td><audio id="C_audio_mv_m2m"
                             onended="audioEnd('C_btn_mv_m2m', 'C_audio_mv_m2m')">
-                            <source src="./audios/eprs/m2m_07425/m2m_07425_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/m2m_07425/m2m_07425_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1015,7 +1015,7 @@
 
                         <td><audio id="D_audio_mv_m2m"
                             onended="audioEnd('D_btn_mv_m2m', 'D_audio_mv_m2m')">
-                            <source src="./audios/eprs/m2m_08550/m2m_08550_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/m2m_08550/m2m_08550_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1029,7 +1029,7 @@
                         <td>M2M + M2A</td>
                         <td><audio id="A_audio_m2a_m2m"
                             onended="audioEnd('A_btn_m2a_m2m', 'A_audio_m2a_m2m')">
-                            <source src="./audios/eprs/m2m_05828/m2m_05828_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/m2m_05828/m2m_05828_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1041,7 +1041,7 @@
 
                         <td><audio id="B_audio_m2a_m2m"
                             onended="audioEnd('B_btn_m2a_m2m', 'B_audio_m2a_m2m')">
-                            <source src="./audios/eprs/m2m_06288/m2m_06288_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/m2m_06288/m2m_06288_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1053,7 +1053,7 @@
 
                         <td><audio id="C_audio_m2a_m2m"
                             onended="audioEnd('C_btn_m2a_m2m', 'C_audio_m2a_m2m')">
-                            <source src="./audios/eprs/m2m_07425/m2m_07425_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/m2m_07425/m2m_07425_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1065,7 +1065,7 @@
 
                         <td><audio id="D_audio_m2a_m2m"
                             onended="audioEnd('D_btn_m2a_m2m', 'D_audio_m2a_m2m')">
-                            <source src="./audios/eprs/m2m_08550/m2m_08550_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/m2m_08550/m2m_08550_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1079,14 +1079,14 @@
                 </table>
 
                 <br>
-                <h3 class="text-left">VirtuosoNet</h3>
+                <h4 class="text-left">VirtuosoNet</h4>
                 <table class="table table-sm text-center" style="vertical-align: middle;">
                     <tr>
                         <th><span class="">Source</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg1: A</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg2: B</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg3: C</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg4: D</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample A</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample B</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample C</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample D</span> <br> <span class="detail"></span></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -1094,7 +1094,7 @@
                         <td>VirtuosoNet + MIDI-VALLE</td>
                         <td><audio id="A_audio_mv_virtuoso"
                             onended="audioEnd('A_btn_mv_virtuoso', 'A_audio_mv_virtuoso')">
-                            <source src="./audios/eprs/virtuoso-1/virtuoso-1_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/virtuoso-1/virtuoso-1_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1106,7 +1106,7 @@
 
                         <td><audio id="B_audio_mv_virtuoso"
                             onended="audioEnd('B_btn_mv_virtuoso', 'B_audio_mv_virtuoso')">
-                            <source src="./audios/eprs/virtuoso-2/virtuoso-2_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/virtuoso-2/virtuoso-2_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1118,7 +1118,7 @@
 
                         <td><audio id="C_audio_mv_virtuoso"
                             onended="audioEnd('C_btn_mv_virtuoso', 'C_audio_mv_virtuoso')">
-                            <source src="./audios/eprs/virtuoso-3/virtuoso-3_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/virtuoso-3/virtuoso-3_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1130,7 +1130,7 @@
 
                         <td><audio id="D_audio_mv_virtuoso"
                             onended="audioEnd('D_btn_mv_virtuoso', 'D_audio_mv_virtuoso')">
-                            <source src="./audios/eprs/virtuoso-4/virtuoso-4_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/virtuoso-4/virtuoso-4_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1144,7 +1144,7 @@
                         <td>VirtuosoNet + M2A</td>
                         <td><audio id="A_audio_m2a_virtuoso"
                             onended="audioEnd('A_btn_m2a_virtuoso', 'A_audio_m2a_virtuoso')">
-                            <source src="./audios/eprs/virtuoso-1/virtuoso-1_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/virtuoso-1/virtuoso-1_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1156,7 +1156,7 @@
 
                         <td><audio id="B_audio_m2a_virtuoso"
                             onended="audioEnd('B_btn_m2a_virtuoso', 'B_audio_m2a_virtuoso')">
-                            <source src="./audios/eprs/virtuoso-2/virtuoso-2_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/virtuoso-2/virtuoso-2_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1168,7 +1168,7 @@
 
                         <td><audio id="C_audio_m2a_virtuoso"
                             onended="audioEnd('C_btn_m2a_virtuoso', 'C_audio_m2a_virtuoso')">
-                            <source src="./audios/eprs/virtuoso-3/virtuoso-3_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/virtuoso-3/virtuoso-3_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1180,7 +1180,7 @@
 
                         <td><audio id="D_audio_m2a_virtuoso"
                             onended="audioEnd('D_btn_m2a_virtuoso', 'D_audio_m2a_virtuoso')">
-                            <source src="./audios/eprs/virtuoso-4/virtuoso-4_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/virtuoso-4/virtuoso-4_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1194,14 +1194,14 @@
                 </table></audio>
 
                 <br>
-                <h3 class="text-left">DExter as the EPR</h3> 
+                <h4 class="text-left">DExter</h4> 
                 <table class="table table-sm text-center" style="vertical-align: middle;">
                     <tr>
                         <th><span class="">Source</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg1: A</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg2: B</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg3: C</span> <br> <span class="detail"></span></th>
-                        <th><span class="">Seg4: D</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample A</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample B</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample C</span> <br> <span class="detail"></span></th>
+                        <th><span class="">Sample D</span> <br> <span class="detail"></span></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -1209,7 +1209,7 @@
                         <td>DExter + MIDI-VALLE</td>
                         <td><audio id="A_audio_mv_dexter"
                             onended="audioEnd('A_btn_mv_dexter', 'A_audio_mv_dexter')">
-                            <source src="./audios/eprs/dexter_Bethoven_1/dexter_Bethoven11-2_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/dexter_Bethoven_1/dexter_Bethoven11-2_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1221,7 +1221,7 @@
 
                         <td><audio id="B_audio_mv_dexter"
                             onended="audioEnd('B_btn_mv_dexter', 'B_audio_mv_dexter')">
-                            <source src="./audios/eprs/dexter_Bethoven_2/dexter_beethoven_17_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/dexter_Bethoven_2/dexter_beethoven_17_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1233,7 +1233,7 @@
 
                         <td><audio id="C_audio_mv_dexter"
                             onended="audioEnd('C_btn_mv_dexter', 'C_audio_mv_dexter')">
-                            <source src="./audios/eprs/dexter_Chopinop/dexter_Chopinop-38_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/dexter_Chopinop/dexter_Chopinop-38_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1245,7 +1245,7 @@
 
                         <td><audio id="D_audio_mv_dexter"
                             onended="audioEnd('D_btn_mv_dexter', 'D_audio_mv_dexter')">
-                            <source src="./audios/eprs/dexter_Debussy/debussy_8_midi-valle.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/dexter_Debussy/debussy_8_midi-valle.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1259,7 +1259,7 @@
                         <td>DExter + M2A</td>
                         <td><audio id="A_audio_m2a_dexter"
                             onended="audioEnd('A_btn_m2a_dexter', 'A_audio_m2a_dexter')">
-                            <source src="./audios/eprs/dexter_Bethoven_1/dexter_Bethoven11-2_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/dexter_Bethoven_1/dexter_Bethoven11-2_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1271,7 +1271,7 @@
 
                         <td><audio id="B_audio_m2a_dexter"
                             onended="audioEnd('B_btn_m2a_dexter', 'B_audio_m2a_dexter')">
-                            <source src="./audios/eprs/dexter_Bethoven_2/dexter_beethoven_17_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/dexter_Bethoven_2/dexter_beethoven_17_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1283,7 +1283,7 @@
 
                         <td><audio id="C_audio_m2a_dexter"
                             onended="audioEnd('C_btn_m2a_dexter', 'C_audio_m2a_dexter')">
-                            <source src="./audios/eprs/dexter_Chopinop/dexter_Chopinop-38_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/dexter_Chopinop/dexter_Chopinop-38_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1295,7 +1295,7 @@
 
                         <td><audio id="D_audio_m2a_dexter"
                             onended="audioEnd('D_btn_m2a_dexter', 'D_audio_m2a_dexter')">
-                            <source src="./audios/eprs/dexter_Debussy/debussy_8_m2a.wav" type="audio/mpeg">
+                            <source src="./audios/eprs/dexter_Debussy/debussy_8_m2a.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <div>
@@ -1308,6 +1308,181 @@
                     </tbody></audio>
                 </table>
 
+            </div>
+            <br>
+            <br>
+            <div class="section">
+                <h2 class="text-left">Prompt Effects on MIDI-VALLE</h2>
+                <hr>
+                <p class="pr-5 pl-5">
+                The following audio samples demonstrate the effects of different prompts on the synthesised expressive performance using MIDI-VALLE. In some cases, even when the acoustics of the audio prompt differ significantly from the ground truth, there is little impact on the synthesis, as seen in sample B. However, for segments like sample A, these variations can lead to noticeable differences in both timbre and the reconstruction of the recording environment. This may be due to the differences between the MIDI prompt and the target MIDI prompt in terms of note ranges, chords, harmonic features, rhythms, and other musical elements. These details are not further investigated here, as they fall outside the scope of our primary focus.
+                </p>
+                <br>
+                <h4 class="text-left">Sample A</h4>
+                <table class="table table-sm text-center" style="vertical-align: middle;">
+                    <thead>
+                        <tr>
+                            <th><span class="">Condition</span> <br> <span class="detail"></span></th>
+                            <th><span class="">3-second Prompt</span> <br> <span class="detail"></span></th>
+                            <th><span class="">Performance</span> <br> <span class="detail"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>GroundTruth</td>
+                        <td>N/A</td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/04337_0_5/gt.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td>First 3 Seconds</td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/prompt/04337_0_5_prompt_0s.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/04337_0_5/first_3.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Prompt I</td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/prompt/02118_0_1_prompt_0s.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>   
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/04337_0_5/02188_0_1.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Prompt II</td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/prompt/04023_0_7_prompt_0s.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>   
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/04337_0_5/04023_0_7.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Prompt III</td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/prompt/06735_0_7_prompt_0s.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>   
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/04337_0_5/06735_0_7.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <h4 class="text-left">Sample B</h4>
+                <table class="table table-sm text-center" style="vertical-align: middle;">
+                    <thead>
+                        <tr>
+                            <th><span class="">Condition</span> <br> <span class="detail"></span></th>
+                            <th><span class="">3-second Prompt</span> <br> <span class="detail"></span></th>
+                            <th><span class="">Performance</span> <br> <span class="detail"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>GroundTruth</td>
+                        <td>N/A</td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/05309_0_24/gt.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td>First 3 Seconds</td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/prompt/05309_0_24_prompt_0s.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/05309_0_24/first_3.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Prompt I</td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/prompt/02118_0_1_prompt_0s.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>   
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/05309_0_24/02118_0_1.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Prompt II</td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/prompt/04023_0_7_prompt_0s.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>   
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/05309_0_24/04023_0_7.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Prompt III</td>
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/prompt/06735_0_7_prompt_0s.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>   
+                        <td>
+                            <audio controls>
+                                <source src="./audios/prompt_effects/05309_0_24/06735_0_7.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
             <br>
             <br>
